@@ -1,0 +1,39 @@
+# ComfyUI Conduit - Workflow API System
+name: comfyui-conduit
+tier: ai
+status: active
+readiness: ready
+description: Socket tagging system for ComfyUI enabling external workflow execution with typed inputs and captured outputs
+
+has:
+  - own-git-repo
+
+repository: https://github.com/Ckrest/comfyui-conduit
+license: MIT
+runtime: python
+
+depends_on:
+  - comfyui
+
+provides:
+  - workflow-api
+  - socket-tagging
+  - external-execution
+
+tags:
+  - comfyui
+  - custom-nodes
+  - api
+  - workflow
+  - automation
+  - library
+
+usage: |
+  ComfyUI custom node pack for workflow automation.
+
+  Install: Symlink to ComfyUI/custom_nodes/
+
+  Features:
+  - Tag workflow sockets as inputs/outputs
+  - Execute workflows via API with typed parameters
+  - Capture outputs programmatically
