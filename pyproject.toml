@@ -1,0 +1,13 @@
+[project]
+name = "conduit"
+description = "Socket tagging system for ComfyUI - capture, route, and handle workflow data"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/PLACEHOLDER/conduit"
+
+[tool.comfy]
+PublisherId = "PLACEHOLDER"
+DisplayName = "Conduit"
+Icon = "⚡"
