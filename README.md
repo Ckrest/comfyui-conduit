@@ -241,7 +241,7 @@ conduit/
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/PLACEHOLDER/conduit
+git clone https://github.com/Ckrest/comfyui-conduit
 # Restart ComfyUI
 ```
 
