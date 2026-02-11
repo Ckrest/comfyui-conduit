@@ -1,13 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "conduit"
+name = "comfyui-conduit"
 description = "Socket tagging system for ComfyUI - capture, route, and handle workflow data"
 version = "1.0.0"
+requires-python = ">=3.11"
+readme = "README.md"
 license = {file = "LICENSE"}
+authors = [
+    {name = "Ckrest"},
+]
+dependencies = [
+    "aiohttp>=3.8",
+]
 
 [project.urls]
-Repository = "https://github.com/PLACEHOLDER/conduit"
+Repository = "https://github.com/Ckrest/comfyui-conduit"
 
 [tool.comfy]
 PublisherId = "PLACEHOLDER"
 DisplayName = "Conduit"
-Icon = "⚡"
+Icon = ""

@@ -24,3 +24,13 @@ Thumbs.db
 # Personal files (not for distribution)
 RELEASE_CHECKLIST.md
 handlers/database_handler.py
+
+# Published package requirements
+.env
+venv/
+build/
+dist/
+*.db
+*.sqlite3
+*.pkl
+*.pt

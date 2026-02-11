@@ -11,6 +11,7 @@ import json
 import copy
 import asyncio
 import aiohttp
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -22,8 +23,8 @@ from .conduit_workflows import get_workflow_path, WORKFLOWS_DIR
 from .conduit_validation import validate_workflow_inputs
 from .conduit_mimicry import apply_workflow_mimicry
 
-# ComfyUI API base URL (assumes running on same host)
-COMFY_API_URL = "http://127.0.0.1:8188"
+# ComfyUI API base URL (configurable via environment)
+COMFY_API_URL = os.environ.get("COMFY_API_URL", "http://127.0.0.1:8188")
 
 # Timeout constants (seconds)
 QUEUE_TIMEOUT = 10
