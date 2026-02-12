@@ -1,12 +1,10 @@
-# comfyui-conduit
 name: comfyui-conduit
 description: Socket tagging system for ComfyUI enabling external workflow execution
   with typed inputs and captured outputs
-state: draft
+state: ready
 traits:
 - comfyui-node
 - published
-- path-dependencies
 - python
 tags:
 - ComfyUI
