@@ -30,6 +30,7 @@ handlers/database_handler.py
 venv/
 build/
 dist/
+*.egg-info/
 *.db
 *.sqlite3
 *.pkl
